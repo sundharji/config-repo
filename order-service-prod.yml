@@ -5,7 +5,7 @@ server:
 message: Hello from Order Prod!
 spring:
   datasource:
-     url: jdbc:mysql://localhost:3306/order_prod
+     url: jdbc:h2:mem/order_prod
      username: root
      password:
   jpa:
